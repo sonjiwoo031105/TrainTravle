@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>용이 영상</title>
+        <script>
+            function historys(){
+                window.history.go(-3);
+            }
+        </script>
+        <style type = text/css>
+        video{
+            align-self : center;
+        }
+        input{
+            background-color: powderblue;
+            color : white;
+            float : right;
+            margin-right : 400px;
+        }
+        input:hover{
+            background-color : black;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+        <video src = "용이영상.mp4" width = "500" height = "700" autoplay controls></video></center>
+        <input type="button" value="메인화면" onclick="historys()"></input>
+    </body>
+</html>
